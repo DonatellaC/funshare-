@@ -97,25 +97,30 @@ export default class Event extends Component {
             </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <Link class="nav-link" to="/about">About</Link>
+                <li className="nav-item">
+                  <Link class="nav-link" to="/about">
+                    About
+                  </Link>
                 </li>
                 <li className="nav-item">
-                <Link class="nav-link" to="/" >Log In</Link>
+                  <Link class="nav-link" to="/">
+                    Log In
+                  </Link>
                 </li>
                 <li className="nav-item">
-                <Link class="nav-link" to="/register">Register</Link>
+                  <Link class="nav-link" to="/register">
+                    Register
+                  </Link>
                 </li>
                 <li className="nav-item">
-                <Link class="nav-link" to="/myaccount" >My Account</Link>
+                  <Link class="nav-link" to="/myaccount">
+                    My Account
+                  </Link>
                 </li>
                 <li className="nav-item">
-                <Link class="nav-link" to="/allusers">Players</Link>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/allusers">
+                  <Link class="nav-link" to="/allusers">
                     Players
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -300,4 +305,3 @@ export default class Event extends Component {
     );
   }
 }
-
