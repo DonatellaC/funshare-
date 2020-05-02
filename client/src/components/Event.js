@@ -112,6 +112,11 @@ export default class Event extends Component {
                     My Account
                   </a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/allusers">
+                    Players
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
