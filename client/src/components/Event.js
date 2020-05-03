@@ -136,7 +136,10 @@ export default class Event extends Component {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <MapApp eventLocation={this.state.location} />
+              <MapApp
+                eventLocation={this.state.location}
+                events={this.state.events}
+              />
               <div classNameName="form-group">
                 <form onSubmit={this.addNewEvent}>
                   <div className="row">

@@ -5,6 +5,7 @@ require("dotenv").config();
 
 const opencage = require("opencage-api-client");
 const OCD_API_KEY = process.env.REACT_APP_OCD_API_KEY;
+console.log("api key", OCD_API_KEY);
 
 class MapApp extends Component {
   constructor(props) {
