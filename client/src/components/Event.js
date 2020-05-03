@@ -28,7 +28,7 @@ export default class Event extends Component {
       });
   };
   addNewEvent = (event) => {
-    event.preventDefault();
+    //event.preventDefault();
     fetch("/events", {
       method: "POST",
       headers: {
@@ -68,7 +68,7 @@ export default class Event extends Component {
   };
 
   handleChange = (e) => {
-    //e.preventDefault();
+    e.preventDefault();
     const name = e.target.name;
     const value = e.target.value;
     this.setState({
