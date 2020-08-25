@@ -1,33 +1,65 @@
 # funshare®
-funshare® is an app to virtually connect boardgame lovers and allow them to meet and play in the real world! 
 
-## Getting started
+funshare® is an app to virtually connect boardgame lovers and allow them to meet and play in the real world! 🎲🧩🃏
 
-- Install mongoDB 
+## 🍀 Getting started
+
+- Install mongoDB
 - In app.js there is connection set up using mongoose and funshare collection is created
 
-## Dependencies
+## 🍀 Dependencies
 
 1. Run `yarn install` in project directory to install Express.`yarn start` to run servers on port 5001
 2. `cd client` and `yarn install` to install React. `yarn start` to run servers on port 3000.
 
-## API 
+## 🍀 API
+
 Create a `.env` file
+
 - visit https://opencagedata.com/, register and create your own API key
-- create a variable REACT_APP_OCD_API_KEY=*** and replace the * with your own key
+- create a variable REACT*APP_OCD_API_KEY=*\*\* and replace the \_ with your own key
 
-
-## User Flow Diagram
+## 🍀 User Flow Diagram
 
 ![User Flow Diagram](userFlowFunshare.png)
 
-## Database schema
+## 🍀 User Flow in Pictures
+
+Sign In form
+
+![funshare ](images/funshare_home1.png)
+
+About funshare®
+
+![funshare ](images/funshare_about.png)
+
+Registration form
+
+![funshare ](images/funshare_register.png)
+
+Filter for other players
+
+![funshare ](images/funshare_dashboard.png)
+
+Player's profile
+
+![funshare ](images/funshare_profile.png)
+
+The player can add/delete her/his games
+
+![funshare ](images/funshare_mygames.png)
+
+Add fun games events
+
+![funshare ](images/funshare_createevent.png)
+
+## 🍀 Database schema
 
 ![User Schema](UserSchema.png)
 
 ![Event Schema](EventSchema.png)
 
-## API routes plan
+## 🍀 API routes plan
 
 ![User Get](usersGet.png)
 ![User Id Get](usersIdGet.png)
@@ -40,13 +72,12 @@ Create a `.env` file
 ![User Id Delete](usersIdDelete.png)
 ![Events](events.png)
 
-
-
-## Used technologies
+## 🍀 Used technologies
 
 For authentication:
+
 - Passport
-- bcrypt 
+- bcrypt
 - JWT
 
 ### Frontend
@@ -54,7 +85,7 @@ For authentication:
 - React
 - React Router
 - Bootstrap - styling
-- axios 
+- axios
 - leaflet - library for interactive map
 
 ### Backend
@@ -65,9 +96,9 @@ For authentication:
 
 ### Database
 
-- mongoDB 
+- mongoDB
 
-## Future features
+## 🍀 Future features
 
 - Deploy on Heroku
 - User communication, direct messages or chat
