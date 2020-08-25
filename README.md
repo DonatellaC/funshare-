@@ -1,6 +1,6 @@
 # funshare®
 
-funshare® is an app to virtually connect boardgame lovers and allow them to meet and play in the real world! 🎲🧩🃏
+funshare® is an app to virtually connect boardgame lovers and allow them to meet and play in the real world! 🎲🃏
 
 ## 🍀 Getting started
 
@@ -21,7 +21,7 @@ Create a `.env` file
 
 ## 🍀 User Flow Diagram
 
-![User Flow Diagram](userFlowFunshare.png)
+![User Flow Diagram](images/userFlowFunshare.png)
 
 ## 🍀 User Flow in Pictures
 
@@ -55,22 +55,22 @@ Add fun games events
 
 ## 🍀 Database schema
 
-![User Schema](UserSchema.png)
+![User Schema](images/UserSchema.png)
 
-![Event Schema](EventSchema.png)
+![Event Schema](images/EventSchema.png)
 
 ## 🍀 API routes plan
 
-![User Get](usersGet.png)
-![User Id Get](usersIdGet.png)
-![User Category Get](usersCategoryGet.png)
-![User City Get](usersCityGet.png)
-![User Filter Get](usersFilterGet.png)
-![User Auth Post](usersAuthPost.png)
-![User Add Post](usersAddPost.png)
-![User Id Patch](usersIdPatch.png)
-![User Id Delete](usersIdDelete.png)
-![Events](events.png)
+![User Get](images/usersGet.png)
+![User Id Get](images/usersIdGet.png)
+![User Category Get](images/usersCategoryGet.png)
+![User City Get](images/usersCityGet.png)
+![User Filter Get](images/usersFilterGet.png)
+![User Auth Post](images/usersAuthPost.png)
+![User Add Post](images/usersAddPost.png)
+![User Id Patch](images/usersIdPatch.png)
+![User Id Delete](images/usersIdDelete.png)
+![Events](images/events.png)
 
 ## 🍀 Used technologies
 
@@ -85,8 +85,8 @@ For authentication:
 - React
 - React Router
 - Bootstrap - styling
-- axios
-- leaflet - library for interactive map
+- Axios
+- Leaflet - library for interactive map
 
 ### Backend
 
